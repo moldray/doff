@@ -1,0 +1,27 @@
+{
+  "name": "doff",
+  "version": "1.0.0",
+  "description": "offline document browser",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldray/doff.git"
+  },
+  "author": "mold<leids@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moldray/doff/issues"
+  },
+  "homepage": "https://github.com/moldray/doff#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.81.0"
+  }
+}
